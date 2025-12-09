@@ -1,0 +1,6 @@
+#comment
+# 08 de Diciembre 2025
+
+        - - version 1.0.0 - -
+1. Se a;adio el main (multiCalculator.py),  contiene el menu general.
+2. Se a;adio basic.py, contiene las operaciones de Ed basica y Ed medSuperior.

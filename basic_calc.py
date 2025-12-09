@@ -3,7 +3,7 @@
 
 import numpy as np
 from multiCalculator import loadScreen
-
+#calculadora Ed basica/Media superior
 def mostrar_menu():
     print("\n"+"="*40)
     print("CALCULADORA GUAY".center(40))
@@ -136,3 +136,4 @@ def start_calculadora():
                 loadScreen(" Cargando Menu Principal . . . ", 50)
                 print("\n")  # Espacio final
                 return  # Salir del programa
+#fin calculadora Ed basica/Media superior
