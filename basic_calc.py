@@ -1,8 +1,8 @@
 #comment
 #
 
+import math
 import numpy as np
-from multiCalculator import loadScreen
 #calculadora Ed basica/Media superior
 def mostrar_menu():
     print("\n"+"="*40)
@@ -93,6 +93,7 @@ def menu_secundario():
         print("Error: Ingresa 1, 2 o 0.")
 
 def start_calculadora():
+    from multiCalculator import loadScreen
     """Controla el flujo principal de la calculadora."""
     simbolos = {1: "+", 2: "-", 3: "*", 4: "/"}
     while True:
@@ -109,14 +110,11 @@ def start_calculadora():
         if opcion not in {"1", "2", "3", "4", "5", "6"}:
             print("Error: Opción inválida. Elige un número del 0 al 6.")
             continue
-        
         opcion = int(opcion)
-        
         # Operaciones básicas (1-4)
         if 1 <= opcion <= 4:
             simbolos = {1: "+", 2: "-", 3: "*", 4: "/"}
             realizar_operacion_basica(opcion, simbolos[opcion])
-        
         # Operaciones avanzadas (5-6)
         elif opcion in {5, 6}:
             realizar_operacion_avanzada(opcion)
