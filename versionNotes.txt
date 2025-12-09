@@ -6,4 +6,5 @@
 2. Se anadio basic.py, contiene las operaciones de Ed basica y Ed medSuperior.
 
         - - version 1.0.1 - -
-1. 
+1. se anade el archivo eq-calc.py, que resuelve ecuaciones y matrices.
+2. arreglos menores.
